@@ -210,7 +210,7 @@ function TimelineCard({
 
 export function PortfolioPage() {
   const [isSubmitting, setIsSubmitting] = useState(false);
-  const [contactResult, setContactResult] = useState<{ success: boolean; message: string; error?: string } | null>(null);
+  const [contactResult, setContactResult] = useState<{ success: boolean; message?: string; error?: string } | null>(null);
   const [theme, setTheme] = useState<"light" | "dark">("light");
   const [mounted, setMounted] = useState(false);
 
