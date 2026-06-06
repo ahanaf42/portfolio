@@ -284,6 +284,14 @@ export function PortfolioPage() {
               <Link href="#contact" className="transition-colors hover:text-amber-700 dark:hover:text-amber-500">
                 Contact
               </Link>
+              <a
+                href="/ayoubhanaf_fullstack.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="rounded-sm border border-stone-300 dark:border-stone-700 bg-white dark:bg-stone-800 px-3 py-1.5 text-xs text-stone-700 dark:text-stone-300 shadow-sm transition-all hover:bg-stone-50 dark:hover:bg-stone-700 hover:scale-105"
+              >
+                Resume PDF
+              </a>
             </nav>
             {mounted && (
               <button
@@ -336,6 +344,14 @@ export function PortfolioPage() {
               >
                 View featured projects
               </Link>
+              <a
+                href="/ayoubhanaf_fullstack.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center rounded-sm border border-amber-200 dark:border-amber-900/30 bg-amber-50 dark:bg-amber-900/10 px-6 py-3.5 text-sm font-semibold text-amber-900 dark:text-amber-200 transition-all hover:bg-amber-100 dark:hover:bg-amber-900/20 shadow-sm hover:shadow-md hover:-translate-y-0.5"
+              >
+                Download Resume (PDF)
+              </a>
             </div>
           </div>
 
@@ -425,23 +441,23 @@ export function PortfolioPage() {
             <div>
               <h3 className="font-serif text-2xl font-medium text-stone-900 dark:text-stone-100">Interests</h3>
               <p className="mt-4 text-base leading-relaxed text-stone-600 dark:text-stone-400">
-                In my free time I enjoy competitive football simulations like PES and
-                eFootball, following Moroccan club football, and doing hands-on
-                motorcycle mechanics and maintenance on my QJ RKS 125.
+                In my free time, I enjoy algorithmic problem solving, studying system
+                architecture, following Moroccan club football, and exploring cloud
+                technologies.
               </p>
             </div>
             <div className="grid gap-3 sm:grid-cols-2">
               <div className="flex items-center rounded-sm border border-stone-200 dark:border-stone-800 bg-stone-50 dark:bg-stone-800/50 p-4 text-sm font-medium text-stone-700 dark:text-stone-300 shadow-sm">
-                ⚽ Competitive football
+                💻 Algorithmic problem solving
               </div>
               <div className="flex items-center rounded-sm border border-stone-200 dark:border-stone-800 bg-stone-50 dark:bg-stone-800/50 p-4 text-sm font-medium text-stone-700 dark:text-stone-300 shadow-sm">
                 🇲🇦 Moroccan club football
               </div>
               <div className="flex items-center rounded-sm border border-stone-200 dark:border-stone-800 bg-stone-50 dark:bg-stone-800/50 p-4 text-sm font-medium text-stone-700 dark:text-stone-300 shadow-sm">
-                🏍️ Motorcycle maintenance
+                🏛️ System architecture
               </div>
               <div className="flex items-center rounded-sm border border-stone-200 dark:border-stone-800 bg-stone-50 dark:bg-stone-800/50 p-4 text-sm font-medium text-stone-700 dark:text-stone-300 shadow-sm">
-                🔧 Practical problem solving
+                ☁️ Cloud technologies
               </div>
             </div>
           </div>
